@@ -1,0 +1,11 @@
+2
+Comedy 3
+Zoolander 4.5 1 Ben_Stiller true
+Rushmore 4.3 2 Bill_Murray Jason_Schwartzman false
+The_Big_Lebowski 4.9 1 Jeff_Bridges true
+Romance 2
+Titanic 4.1 2 Kate_Winslet Leo_DiCaprio true
+The_Notebook 3.9 2 Ryan_Gosling Rachel_McAdams false;
+
+
+

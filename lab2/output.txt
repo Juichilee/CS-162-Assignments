@@ -1,0 +1,8 @@
+Last Names Sorted: 
+Bishop Cregg Dunham Knope Lyman Seaborn Ziegler 
+
+ID Numbers Sorted: 
+199822007 199922004 199922006 199922007 200722013 200822013 200922015 
+
+Number of Unique Majors: 
+6

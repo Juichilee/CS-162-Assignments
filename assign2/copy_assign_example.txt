@@ -1,0 +1,33 @@
+
+//Test Setup
+string* p1Ingredients = new string[2];
+
+p1Ingredients[0] = "Pepperoni";
+p1Ingredients[1] = "Cheese";
+
+string* p2Ingredients = new string[1];
+
+p2Ingredients[0] = "Cheese";
+
+Pizza* pizza1 = new Pizza("Pepperoni Pizza", 8, 9, 10,
+			2, p1Ingredients);
+
+Pizza* pizza2 = new Pizza("Cheese Pizza", 8, 9, 10, 1, p2Ingredients);
+
+//Copy Constructor
+cout << "Pizza1: " << pizza1->get_name() << "/" << pizza1->get_num_ingredients() << endl;
+
+Pizza pizza3(*pizza1); //Here is copy constructor example
+
+cout << "Pizza3: " << pizza3.get_name() << "/" <<  pizza3.get_num_ingredients() << endl;
+
+//Assignment Operator Overload
+cout << "Before: " << pizza1->get_name() << "/" << pizza1->get_num_ingredients() << endl;
+
+pizza1 = pizza2; //Here is assignment overload operator example
+
+cout << "Right-Object: " << pizza2->get_name() << "/" << pizza2->get_num_ingredients() << endl;
+
+cout << "After: " << pizza1->get_name() << "/" <<  pizza1->get_num_ingredients() << endl;
+//cout << "Are you a customer(C) or employee(E) or would you like to quit(Q)?: " << endl;
+
